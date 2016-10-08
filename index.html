@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Icinga-app : Meta package for installing check and notification commands provided by the various &quot;randomhost/icinga-*&quot; packages.">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Icinga-app</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/randomhost/icinga-app">View on GitHub</a>
+
+          <h1 id="project_title">Icinga-app</h1>
+          <h2 id="project_tagline">Meta package for installing check and notification commands provided by the various &quot;randomhost/icinga-*&quot; packages.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/randomhost/icinga-app/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/randomhost/icinga-app/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Introduction</h1>
+
+<p>This is a meta package for installing check and notification commands provided
+by the various <code>randomhost/icinga-*</code> packages.</p>
+
+<p>Available check and notification scripts will be installed to <code>vendor/bin/</code>.</p>
+
+<h2>
+<a id="check-commands" class="anchor" href="#check-commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Check commands</h2>
+
+<p>The following check commands are available:</p>
+
+<ul>
+<li>
+<p><code>icinga-check-minecraft-playercount</code></p>
+
+<p>Checks the amount of players on the server.</p>
+
+<p><strong>Command line parameters</strong></p>
+
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>--host</td>
+<td>Minecraft server IP address or hostname</td>
+</tr>
+<tr>
+<td>--port</td>
+<td>Query port</td>
+</tr>
+<tr>
+<td>--thresholdWarning</td>
+<td>Threshold to trigger the WARNING state</td>
+</tr>
+<tr>
+<td>--thresholdCritical</td>
+<td>Threshold to trigger the CRITICAL state</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+
+<h2>
+<a id="notification-commands" class="anchor" href="#notification-commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Notification commands</h2>
+
+<p>The following notification commands are available:</p>
+
+<ul>
+<li>
+<p><code>icinga-notify-nma-push</code></p>
+
+<p>Sends notifications using <a href="http://notifymyandroid.com">NotifyMyAndroid</a>.</p>
+
+<p><strong>Command line parameters</strong></p>
+
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>--type</td>
+<td>Notification type</td>
+</tr>
+<tr>
+<td>--service</td>
+<td>Service name</td>
+</tr>
+<tr>
+<td>--host</td>
+<td>Host name</td>
+</tr>
+<tr>
+<td>--address</td>
+<td>Host address</td>
+</tr>
+<tr>
+<td>--state</td>
+<td>Service state</td>
+</tr>
+<tr>
+<td>--time</td>
+<td>Notification time</td>
+</tr>
+<tr>
+<td>--output</td>
+<td>Check plugin output</td>
+</tr>
+<tr>
+<td>--apikey</td>
+<td>NotifyMyAndroid API key</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
+
+<p>See LICENSE.txt for full license details.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Icinga-app maintained by <a href="https://github.com/randomhost">randomhost</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
