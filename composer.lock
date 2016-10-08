@@ -1,0 +1,292 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "24952fee6a651e4de8171376ae111294",
+    "content-hash": "2499c56d2b7e4235685e7b4dd83441c1",
+    "packages": [
+        {
+            "name": "randomhost/icinga",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/randomhost/icinga.git",
+                "reference": "b8971c062d194aa487ba37ddf3fef23a0c4975e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/randomhost/icinga/zipball/b8971c062d194aa487ba37ddf3fef23a0c4975e4",
+                "reference": "b8971c062d194aa487ba37ddf3fef23a0c4975e4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "behat/behat": "~2.0",
+                "phpspec/phpspec": "~2.4",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "randomhost\\Icinga\\": "src/php/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "New-BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Ch'Ih-Yu",
+                    "email": "chi-yu@web.de"
+                }
+            ],
+            "description": "Provides Icinga check and notification commands.",
+            "homepage": "https://www.random-host.com",
+            "keywords": [
+                "icinga",
+                "nagios"
+            ],
+            "time": "2016-10-08 14:41:13"
+        },
+        {
+            "name": "randomhost/icinga-check-minecraft",
+            "version": "0.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/randomhost/icinga-check-minecraft.git",
+                "reference": "a5c36c0aae6c76a0d112f492481f3152c30b686c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/randomhost/icinga-check-minecraft/zipball/a5c36c0aae6c76a0d112f492481f3152c30b686c",
+                "reference": "a5c36c0aae6c76a0d112f492481f3152c30b686c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "randomhost/icinga": "~0.2.1",
+                "randomhost/mcstat": "~0.0.2"
+            },
+            "require-dev": {
+                "behat/behat": "~2.0",
+                "phpspec/phpspec": "~2.4",
+                "phpunit/phpunit": "~4.0"
+            },
+            "bin": [
+                "src/bin/icinga-check-minecraft-playercount"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "randomhost\\Icinga\\Check\\Minecraft\\": "src/php/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "New-BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Ch'Ih-Yu",
+                    "email": "chi-yu@web.de"
+                }
+            ],
+            "description": "Provides Icinga check commands for Minecraft.",
+            "homepage": "https://www.random-host.com",
+            "keywords": [
+                "icinga",
+                "minecraft",
+                "nagios"
+            ],
+            "time": "2016-10-08 15:20:47"
+        },
+        {
+            "name": "randomhost/icinga-notification",
+            "version": "0.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/randomhost/icinga-notification.git",
+                "reference": "c2625fabf542c8edd70b10e67b760a5d4f4019dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/randomhost/icinga-notification/zipball/c2625fabf542c8edd70b10e67b760a5d4f4019dd",
+                "reference": "c2625fabf542c8edd70b10e67b760a5d4f4019dd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "randomhost/icinga": "~0.2.1",
+                "randomhost/notifymyandroid": "~0.0.2"
+            },
+            "require-dev": {
+                "behat/behat": "~2.0",
+                "phpspec/phpspec": "~2.4",
+                "phpunit/phpunit": "~4.0"
+            },
+            "bin": [
+                "src/bin/icinga-notify-nma-push"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "randomhost\\Icinga\\Notification\\": "src/php/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "New-BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Ch'Ih-Yu",
+                    "email": "chi-yu@web.de"
+                }
+            ],
+            "description": "Provides common notification commands for the randomhost/icinga package.",
+            "homepage": "https://www.random-host.com",
+            "keywords": [
+                "icinga",
+                "nagios"
+            ],
+            "time": "2016-10-08 15:18:47"
+        },
+        {
+            "name": "randomhost/mcstat",
+            "version": "0.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/randomhost/mcstat.git",
+                "reference": "91931d86b76c573b81d6f8934e18098ae3de5592"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/randomhost/mcstat/zipball/91931d86b76c573b81d6f8934e18098ae3de5592",
+                "reference": "91931d86b76c573b81d6f8934e18098ae3de5592",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "behat/behat": "~2.0",
+                "phpspec/phpspec": "~2.4",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "randomhost\\Minecraft\\": "src/php/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Winston Weinert",
+                    "email": "WinstonOne@fastmail.fm",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Anders G. Jørgensen",
+                    "email": "anders@spirit55555.dk",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Ch'Ih-Yu",
+                    "email": "chi-yu@web.de",
+                    "role": "Contributor"
+                }
+            ],
+            "description": "Retrieves status information from a Minecraft server.",
+            "homepage": "https://www.random-host.com",
+            "keywords": [
+                "minecraft"
+            ],
+            "time": "2016-10-03 21:11:53"
+        },
+        {
+            "name": "randomhost/notifymyandroid",
+            "version": "0.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/randomhost/notifymyandroid.git",
+                "reference": "1b0f70e9f73bb00d4f8e8dce3b46a7b81628b2dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/randomhost/notifymyandroid/zipball/1b0f70e9f73bb00d4f8e8dce3b46a7b81628b2dd",
+                "reference": "1b0f70e9f73bb00d4f8e8dce3b46a7b81628b2dd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "behat/behat": "~2.0",
+                "phpspec/phpspec": "~2.4",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "randomhost\\NotifyMyAndroid\\": "src/php/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "New-BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Ch'Ih-Yu",
+                    "email": "chi-yu@web.de",
+                    "role": "developer"
+                },
+                {
+                    "name": "Paul Lashbrook",
+                    "email": "lashbrook.paul@gmail.com",
+                    "role": "contributor"
+                },
+                {
+                    "name": "Dennis Koot",
+                    "homepage": "http://www.tantalos.nl/",
+                    "role": "contributor"
+                },
+                {
+                    "name": "Chris Schaleborgh",
+                    "homepage": "https://github.com/cschalenborgh",
+                    "role": "contributor"
+                }
+            ],
+            "description": "NotifyMyAndroid.com API client (without cURL).",
+            "homepage": "https://www.random-host.com",
+            "keywords": [
+                "android",
+                "notification",
+                "push"
+            ],
+            "time": "2016-10-08 11:56:51"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": [],
+    "platform-overrides": {
+        "php": "5.3.3"
+    }
+}

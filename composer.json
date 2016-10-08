@@ -1,0 +1,31 @@
+{
+    "name": "randomhost/icinga-checks",
+    "type": "metapackage",
+    "description": "Meta package for installing check and notification commands provided by the various 'randomhost/icinga-*' packages.",
+    "keywords": [
+        "Icinga",
+        "Nagios",
+        "Minecraft",
+        "Android",
+        "Push",
+        "Notification"
+    ],
+    "homepage": "https://www.random-host.com",
+    "license": "New-BSD",
+    "authors": [
+        {
+            "name": "Ch'Ih-Yu",
+            "email": "chi-yu@web.de"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "5.3.3"
+        }
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "randomhost/icinga-check-minecraft": "~0.0.6",
+        "randomhost/icinga-notification": "~0.0.4"
+    }
+}
