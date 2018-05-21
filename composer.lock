@@ -1,24 +1,23 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "24952fee6a651e4de8171376ae111294",
-    "content-hash": "2499c56d2b7e4235685e7b4dd83441c1",
+    "content-hash": "87f39fd07bbea94c68408c002f2ebde7",
     "packages": [
         {
             "name": "randomhost/icinga",
-            "version": "0.2.1",
+            "version": "0.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/randomhost/icinga.git",
-                "reference": "b8971c062d194aa487ba37ddf3fef23a0c4975e4"
+                "reference": "3ec9b2062ba95da7b66c4920b0d686e73105283a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/randomhost/icinga/zipball/b8971c062d194aa487ba37ddf3fef23a0c4975e4",
-                "reference": "b8971c062d194aa487ba37ddf3fef23a0c4975e4",
+                "url": "https://api.github.com/repos/randomhost/icinga/zipball/3ec9b2062ba95da7b66c4920b0d686e73105283a",
+                "reference": "3ec9b2062ba95da7b66c4920b0d686e73105283a",
                 "shasum": ""
             },
             "require": {
@@ -37,7 +36,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "New-BSD"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -51,20 +50,20 @@
                 "icinga",
                 "nagios"
             ],
-            "time": "2016-10-08 14:41:13"
+            "time": "2018-05-21T16:00:41+00:00"
         },
         {
             "name": "randomhost/icinga-check-minecraft",
-            "version": "0.0.6",
+            "version": "0.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/randomhost/icinga-check-minecraft.git",
-                "reference": "a5c36c0aae6c76a0d112f492481f3152c30b686c"
+                "reference": "0587ea307b0706654b4a996d76e20e7ec04176a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/randomhost/icinga-check-minecraft/zipball/a5c36c0aae6c76a0d112f492481f3152c30b686c",
-                "reference": "a5c36c0aae6c76a0d112f492481f3152c30b686c",
+                "url": "https://api.github.com/repos/randomhost/icinga-check-minecraft/zipball/0587ea307b0706654b4a996d76e20e7ec04176a0",
+                "reference": "0587ea307b0706654b4a996d76e20e7ec04176a0",
                 "shasum": ""
             },
             "require": {
@@ -88,7 +87,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "New-BSD"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -103,20 +102,20 @@
                 "minecraft",
                 "nagios"
             ],
-            "time": "2016-10-08 15:20:47"
+            "time": "2018-05-21T16:14:27+00:00"
         },
         {
             "name": "randomhost/icinga-notification",
-            "version": "0.0.4",
+            "version": "0.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/randomhost/icinga-notification.git",
-                "reference": "c2625fabf542c8edd70b10e67b760a5d4f4019dd"
+                "reference": "ab7ef279d19fd993d0fd6e39f2d219b768e48ce6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/randomhost/icinga-notification/zipball/c2625fabf542c8edd70b10e67b760a5d4f4019dd",
-                "reference": "c2625fabf542c8edd70b10e67b760a5d4f4019dd",
+                "url": "https://api.github.com/repos/randomhost/icinga-notification/zipball/ab7ef279d19fd993d0fd6e39f2d219b768e48ce6",
+                "reference": "ab7ef279d19fd993d0fd6e39f2d219b768e48ce6",
                 "shasum": ""
             },
             "require": {
@@ -140,7 +139,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "New-BSD"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -154,7 +153,7 @@
                 "icinga",
                 "nagios"
             ],
-            "time": "2016-10-08 15:18:47"
+            "time": "2018-05-21T16:08:22+00:00"
         },
         {
             "name": "randomhost/mcstat",
@@ -210,20 +209,20 @@
             "keywords": [
                 "minecraft"
             ],
-            "time": "2016-10-03 21:11:53"
+            "time": "2016-10-03T21:11:53+00:00"
         },
         {
             "name": "randomhost/notifymyandroid",
-            "version": "0.0.2",
+            "version": "0.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/randomhost/notifymyandroid.git",
-                "reference": "1b0f70e9f73bb00d4f8e8dce3b46a7b81628b2dd"
+                "reference": "de3d79dc8e6b3933fc2428fcd56cb2e7a0acbfaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/randomhost/notifymyandroid/zipball/1b0f70e9f73bb00d4f8e8dce3b46a7b81628b2dd",
-                "reference": "1b0f70e9f73bb00d4f8e8dce3b46a7b81628b2dd",
+                "url": "https://api.github.com/repos/randomhost/notifymyandroid/zipball/de3d79dc8e6b3933fc2428fcd56cb2e7a0acbfaf",
+                "reference": "de3d79dc8e6b3933fc2428fcd56cb2e7a0acbfaf",
                 "shasum": ""
             },
             "require": {
@@ -242,7 +241,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "New-BSD"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -273,7 +272,7 @@
                 "notification",
                 "push"
             ],
-            "time": "2016-10-08 11:56:51"
+            "time": "2018-05-21T15:55:41+00:00"
         }
     ],
     "packages-dev": [],
